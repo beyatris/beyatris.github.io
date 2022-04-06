@@ -28,6 +28,16 @@ ion-icon {
     font-size: 35px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--dark)
+}
+
 a:link {
     text-decoration: none;
+    color: var(--dark);
+}
+
+a:hover {
+    color: var(--primary);
 }
