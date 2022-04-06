@@ -1,5 +1,33 @@
+:root {
+    /* color palette */
+    --secondary: #ffc0d3;
+    --primary: #ff5c8d;
+    --light: #fdeff4;
+    --dark: #524a4e;
+    --success: #c7f6b6;
+    --success-dark: #007e33;
+    --danger: #ffcccb;
+    --danger-dark: #cc0000;
+
+    /* font sizes */
+    --xsmall: 12px;
+    --small: 16px;
+    --medium: 20px;
+    --large: 24px;
+    --xlarge: 28px;
+
+    --default-font: 'Fira Sans', sans-serif;
+}
+
 body {
     font-family: 'Fira Sans', sans-serif;
     margin: 50px;
 }
 
+ion-icon {
+    font-size: 35px;
+}
+
+a:link {
+    text-decoration: none;
+}
