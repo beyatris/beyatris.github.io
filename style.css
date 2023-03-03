@@ -1,13 +1,9 @@
 :root {
     /* color palette */
-    --secondary: #ffc0d3;
-    --primary: #ff5c8d;
-    --light: #fdeff4;
-    --dark: #524a4e;
-    --success: #c7f6b6;
-    --success-dark: #007e33;
-    --danger: #ffcccb;
-    --danger-dark: #cc0000;
+    --primary: #d01257;
+    --secondary: #fb90b7;
+    --light: #ffcee4;
+    --dark: #0f1021;
 
     /* font sizes */
     --xsmall: 12px;
@@ -16,18 +12,49 @@
     --large: 24px;
     --xlarge: 28px;
 
-    --default-font: 'Fira Sans', sans-serif;
+    --default-font: 'Source Sans Pro', sans-serif;
+}
+
+/* Colors */
+.dark-color {
+    color: var(--dark);
+}
+
+.primary-color {
+    color: var(--primary);
+}
+
+.secondary-color {
+    color: var(--secondary);
+}
+
+.light-color {
+    color: var(--light);
+}
+
+/* Text */
+.title {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 24px;
+}
+
+.subheading {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-bottom: 24px;
 }
 
 body {
-    font-family: 'Fira Sans', sans-serif;
-    margin: 50px;
+    margin: 170px;
 }
 
-ion-icon {
-    font-size: 35px;
+.one-fourth {
+    width: 500px;
 }
 
+/* Links */
 a {
     text-decoration: none;
     color: var(--dark)
@@ -40,4 +67,8 @@ a:link {
 
 a:hover {
     color: var(--primary);
+}
+
+ion-icon {
+    font-size: 35px;
 }
